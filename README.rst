@@ -15,16 +15,16 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Мое название работы
+    :Название исследуемой задачи: Идентификация взаимосвязи между метками с использованием алгоритма, основанного на собственном внимании к задаче классификации с несколькими метками, обосновывающая связь с процессами Хоукса.
     :Тип научной работы: M1P/НИР/CoIS
-    :Автор: Имя Отчество Фамилия
-    :Научный руководитель: степень, Фамилия Имя Отчество
-    :Научный консультант(при наличии): степень, Фамилия Имя Отчество
+    :Автор: Галина Леонидовна Боева
+    :Научный руководитель: к.ф.-м.н. Зайцев Алексей Алексеевич
+    :Научный консультант(при наличии): -
 
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Большая часть доступной пользовательской информации может быть представлена в виде последовательности событий с временными метками. Каждому событию присваивается набор категориальных меток, будущая структура которых представляет большой интерес. Это задача прогнозирования временных наборов для последовательных данных. Современные подходы фокусируются на архитектуре преобразования последовательных данных, используя собственного внимания("self-attention") к элементам в последовательности. В этом случае мы учитываем временные взаимодействия событий, но теряем информацию о взаимозависимостях меток. Мотивированные этим недостатком, мы предлагаем использовать механизм собственного внимания("self-attention") к меткам, предшествующим прогнозируемому шагу. Поскольку наш подход представляет собой сеть внимания к меткам, мы называем ее LANET.  Мы также обосновываем этот метод агрегирования, он положительно влияет на интенсивность события, предполагая, что мы используем стандартный вид интенсивности, предполагая работу с базовым процессом Хоукса.
 
 Research publications
 ===============================
