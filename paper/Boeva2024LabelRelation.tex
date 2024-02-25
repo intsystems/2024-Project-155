@@ -1,0 +1,77 @@
+\documentclass[a4paper, 12pt]{article} %{article}
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{doi}
+\renewcommand{\abstractname}{Аннотация}
+
+
+\title{Идентификация взаимосвязи между метками с использованием алгоритма, основанного на собственном внимании в задаче классификации с несколькими метками, связанная с процессами Хоукса.}
+
+\author{ Боева Галина\\
+	Антиплагиат\\
+	Сколтех\\ 
+	\texttt{boeva.gl@phystech.edu} 
+	\AND
+        Консультант: к.ф.-м.н. Грабовой Андрей\\
+	Антиплагиат\\
+	\texttt{grabovoy.av@phystech.edu} 
+        \AND
+        Эксперт: к.ф.-м.н. Зайцев Алексей\\
+	Сколтех\\
+	\texttt{a.zaytsev@skoltech.ru}
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+	%% \And
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+	%% \And
+	%% Coauthor \\
+	%% Affiliation \\
+	%% Address \\
+	%% \texttt{email} \\
+}
+\date{\today}
+
+%\renewcommand{\shorttitle}{\textit{arXiv} Template}
+
+%%% Add PDF metadata to help others organize their library
+%%% Once the PDF is generated, you can check the metadata with
+%%% $ pdfinfo template.pdf
+\hypersetup{
+pdftitle={A template for the arxiv style},
+pdfsubject={q-bio.NC, q-bio.QM},
+pdfauthor={David S.~Hippocampus, Elias D.~Striatum},
+pdfkeywords={First keyword, Second keyword, More},
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Большая часть доступной пользовательской информации может быть представлена в виде последовательности событий с временными метками. Каждому событию присваивается набор категориальных меток, будущая структура которых представляет большой интерес. Это задача прогнозирования временных наборов для последовательных данных. Современные подходы фокусируются на архитектуре преобразования последовательных данных, используя собственного внимания("self-attention") к элементам в последовательности. В этом случае мы учитываем временные взаимодействия событий, но теряем информацию о взаимозависимостях меток. Мотивированные этим недостатком, мы предлагаем использовать механизм собственного внимания("self-attention") к меткам, предшествующим прогнозируемому шагу. Поскольку наш подход представляет собой сеть внимания к меткам, мы называем ее LANET. Мы также обосновываем этот метод агрегирования, он положительно влияет на интенсивность события, предполагая, что мы используем стандартный вид интенсивности, предполагая работу с базовым процессом Хоукса.
+\end{abstract}
+
+
+\keywords{временные ряды \and взаимосвязь меток \and процессы Хокса}
+
+\section{Введение}
+ 
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}
