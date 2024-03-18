@@ -1,0 +1,7 @@
+_target_: src.datamodules.weather_datamodule.LabelDataModule
+
+prepared_folder: '/NOTEBOOK/hermes/nir/lanet_lightning/data/prepared/demand/'
+look_back: 3
+batch_size: 64
+num_workers: 0
+pin_memory: False

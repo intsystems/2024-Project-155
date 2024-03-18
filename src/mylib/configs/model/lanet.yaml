@@ -1,0 +1,12 @@
+_target_: src.models.lanet.LANET
+
+look_back: 3
+emb_dim: 128
+lr: 0.001
+weight_decay: 0.0
+cat_vocab_size: 33 #${cat_vocab_size}
+id_vocab_size: 4 #${id_vocab_size}
+amount_vocab_size: 9 #${amount_vocab_size}
+dt_vocab_size: 20 #${dt_vocab_size}
+max_cat_len: 24 #${max_cat_len}
+
