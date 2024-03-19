@@ -28,10 +28,6 @@ Abstract
 
 Setting the environment
 ========================
-```
-HYDRA_FULL_ERROR=1 python3 train.py --config-name=train.yaml trainer.gpus=0 
-```
-Внутри конфига datamodule.yaml можно менять параметр исторической информации, датасет или размер векторного пр-ва.
 
 Software modules developed as part of the study
 ======================================================
